@@ -33,6 +33,18 @@ npm install
 npm run dev
 ```
 3. Configure `.env` file with database credentials
+### Environment Configuration
+
+        Copy the `.env.example` file to `.env` and update your database settings:
+
+        ```env
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=mdm_system
+        DB_USERNAME=root
+        DB_PASSWORD=
+
 4. Generate app key:
 ```bash
 php artisan key:generate
